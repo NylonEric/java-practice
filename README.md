@@ -3,9 +3,7 @@
 > A collection of source code examples and design patterns for work in java.
 
 - Information on JIT compiling and binaries:
-https://javapapers.com/core-java/java-binary/#:~:text=Java%20source%20file%20is%20compiled,are%20interpreted%20using%20JVM%20directly.
-
-
+https://javapapers.com/core-java/java-binary/#:~:text=Java%20source%20file%20is%20compiled,are%20interpreted%20using%20JVM%20directly
 
 ## Installation
 
@@ -48,7 +46,6 @@ java HelloWorld
 ```
 
 ## Development setup
-
 
 ## Release History
 
