@@ -4,7 +4,6 @@ public class PrintASCII {
   public static void main(String[] args) {
     Scanner reader = new Scanner(System.in);
     System.out.print("Enter an ASCII character: ");
-
     char character = reader.next().charAt(0);
     reader.close();
     int ascii = (char) character;

@@ -7,7 +7,7 @@ public class SwapFloat {
     float first = reader.nextFloat();
     System.out.print("Enter a second floating-point number: ");
     float second = reader.nextFloat();
-
+    reader.close();
     float temp = first;
     first = second;
     second = temp;
