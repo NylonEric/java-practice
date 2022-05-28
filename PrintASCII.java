@@ -6,6 +6,7 @@ public class PrintASCII {
     System.out.print("Enter an ASCII character: ");
 
     char character = reader.next().charAt(0);
+    reader.close();
     int ascii = (char) character;
 
     System.out.println("The ASCII value of " + character + " is: " + ascii);

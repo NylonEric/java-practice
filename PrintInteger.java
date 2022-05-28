@@ -6,7 +6,7 @@ public class PrintInteger {
     System.out.print("Enter a number: ");
 
     int number = reader.nextInt();
-
+    reader.close();
     System.out.println("You entered: " + number);
   }
 }
