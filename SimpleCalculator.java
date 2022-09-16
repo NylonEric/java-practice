@@ -22,22 +22,22 @@ class SimpleCalculator {
     switch(operator) {
       case '+':
         result = num1 + num2;
-        System.out.printf("%d + %d = %d", num1, num2, result);
+        System.out.printf("%f + %f = %f\n", num1, num2, result);
         break;
       case '-':
         result = num1 - num2;
-        System.out.printf("%d + %d = %d", num1, num2, result);
+        System.out.printf("%f + %f = %f\n", num1, num2, result);
         break;
       case '*':
         result = num1 * num2;
-        System.out.printf("%d + %d = %d", num1, num2, result);
+        System.out.printf("%f + %f = %f\n", num1, num2, result);
         break;
       case '/':
         result = num1 / num2;
-        System.out.printf("%d + %d = %d", num1, num2, result);
+        System.out.printf("%f + %f = %f\n", num1, num2, result);
         break;
       default: 
-        System.out.print("invalid operation!");
+        System.out.print("invalid operation!\n");
     break;
       } 
       input.close();
